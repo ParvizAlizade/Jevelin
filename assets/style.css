@@ -1,0 +1,722 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.allheader {
+  background-color: #2b2b2b;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+}
+
+.allheader .fixedelement i {
+  font-size: 30px;
+  border: 1px solid white;
+  border-radius: 50%;
+  background-color: #dadada;
+  position: fixed;
+  bottom: 30px;
+  padding: 10px;
+  right: 30px;
+  color: #666666;
+}
+
+.allheader .allnav {
+  position: fixed;
+  width: 100%;
+  top: 0px;
+  background-color: #2b2b2b;
+}
+
+.allheader .allnav .navcontainer {
+  width: 93%;
+  margin: 0 auto;
+  position: relative;
+}
+
+.allheader .allnav .navcontainer .navbar {
+  padding-top: 35px;
+}
+
+.allheader .allnav .navcontainer .navbar .logo {
+  z-index: 1;
+}
+
+.allheader .allnav .navcontainer .navbar .navbarcenter ul {
+  list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.allheader .allnav .navcontainer .navbar .navbarcenter ul li {
+  z-index: 2;
+}
+
+.allheader .allnav .navcontainer .navbar .navbarcenter ul a {
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+}
+
+.allheader .allnav .navcontainer .navbar .basketandbuybutton {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  z-index: 2;
+}
+
+.allheader .allnav .navcontainer .navbar .basketandbuybutton .icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: relative;
+  margin-right: 40px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 8px;
+}
+
+.allheader .allnav .navcontainer .navbar .basketandbuybutton .icon i {
+  font-size: 18px;
+  color: #6266ef;
+}
+
+.allheader .allnav .navcontainer .navbar .basketandbuybutton .icon span {
+  position: absolute;
+  border: 0.5px solid #6266ef;
+  padding: 0px 3px 0px 4px;
+  font-size: 12px;
+  font-weight: bold;
+  color: white;
+  border-radius: 50%;
+  background-color: #6266ef;
+  top: 2px;
+  right: -5px;
+}
+
+.allheader .allnav .navcontainer .navbar .basketandbuybutton button {
+  padding: 15px 37px 15px 37px;
+  border-radius: 40px;
+  background-color: #6266ef;
+  color: white;
+  border: none;
+  font-weight: 700;
+}
+
+.allheader .bottomheader .images .leftcircleimage {
+  position: absolute;
+  top: -290px;
+  left: -380px;
+  opacity: 0.4;
+}
+
+.allheader .bottomheader .images .rightcircleimage {
+  position: absolute;
+  right: -750px;
+  top: 150px;
+}
+
+.allheader .bottomheader .images .clockimage {
+  position: absolute;
+  top: 7%;
+  right: 8%;
+}
+
+.allheader .bottomheader .text {
+  position: absolute;
+  right: 55%;
+  color: white;
+  top: 30%;
+}
+
+.allheader .bottomheader .text .title h1 {
+  font-size: 80px;
+}
+
+.allheader .bottomheader .text .title h1 span {
+  color: #ba82ee;
+}
+
+.allheader .bottomheader .text .description {
+  margin-top: 60px;
+}
+
+.allheader .bottomheader .text .description h6 {
+  font-weight: bolder;
+}
+
+.allheader .bottomheader .text .description p {
+  margin-top: 30px;
+  font-size: 14px;
+  color: gray;
+  font-weight: 500;
+}
+
+.allheader .bottomheader .fixeddiv {
+  position: fixed;
+  background-color: white;
+  right: 0px;
+  -webkit-transform: translate(-25%, 40%);
+          transform: translate(-25%, 40%);
+}
+
+.allheader .bottomheader .fixeddiv i {
+  display: block;
+  padding: 19px;
+  font-size: 22px;
+  color: #b9b9b9;
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.allheader .bottomheader .fixeddiv i:hover {
+  color: blue;
+}
+
+main #aboutwatches {
+  background-color: #f4f4f4;
+  height: 170vh;
+  padding-top: 200px;
+}
+
+main #aboutwatches .titleanddescription {
+  text-align: center;
+}
+
+main #aboutwatches .titleanddescription .littletitle p {
+  font-weight: bolder;
+  color: #afa7bd;
+}
+
+main #aboutwatches .titleanddescription .title h1 {
+  font-weight: bolder;
+  font-size: 55px;
+  color: #303030;
+}
+
+main #aboutwatches .titleanddescription .title h1 span {
+  color: #7d1eff;
+}
+
+main #aboutwatches .titleanddescription .about {
+  margin-top: 50px;
+}
+
+main #aboutwatches .titleanddescription .about p {
+  font-size: 18px;
+}
+
+main #aboutwatches .container {
+  width: 80%;
+  margin: 150px auto;
+}
+
+main #aboutwatches .container .allboxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main #aboutwatches .container .allboxes .second {
+  display: none;
+}
+
+main #aboutwatches .container .dots i {
+  color: #b47eff;
+  margin-left: 11px;
+  font-size: 12px;
+  margin-top: 20px;
+}
+
+main #aboutwatches .container .dots i:hover {
+  color: #8127ff;
+}
+
+main #meetwithour .allsection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-top: 200px;
+  padding-bottom: 200px;
+}
+
+main #meetwithour .allsection .image {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+main #meetwithour .allsection .rightside {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+main #meetwithour .allsection .rightside .allcontent .title p {
+  color: #aea9b7;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+main #meetwithour .allsection .rightside .allcontent .title h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  line-height: 60px;
+  color: #342e3c;
+}
+
+main #meetwithour .allsection .rightside .allcontent .alliconanddescription .iconanddescription {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 80px;
+}
+
+main #meetwithour .allsection .rightside .allcontent .alliconanddescription .iconanddescription i {
+  color: #7d4dff;
+  font-size: 25px;
+}
+
+main #meetwithour .allsection .rightside .allcontent .alliconanddescription .iconanddescription .description {
+  width: 70%;
+  margin-left: 40px;
+}
+
+main #meetwithour .allsection .rightside .allcontent .alliconanddescription .iconanddescription .description h4 {
+  font-size: 16px;
+  font-weight: 800;
+  color: #3f3849;
+}
+
+main #meetwithour .allsection .rightside .allcontent .alliconanddescription .iconanddescription .description p {
+  line-height: 28px;
+  color: #8d8698;
+}
+
+main #bestexperience {
+  padding-bottom: 200px;
+}
+
+main #bestexperience .allsection {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 73%;
+  margin: 0 auto;
+}
+
+main #bestexperience .allsection .leftside .title p {
+  color: #aea9b7;
+  line-height: 30px;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+main #bestexperience .allsection .leftside .title h1 {
+  font-size: 48px;
+  font-weight: bolder;
+  line-height: 60px;
+  color: #4b4354;
+}
+
+main #bestexperience .allsection .leftside .allcontent {
+  margin-top: 80px;
+}
+
+main #bestexperience .allsection .leftside .allcontent .content {
+  margin-top: 40px;
+}
+
+main #bestexperience .allsection .leftside .allcontent .content h4 {
+  font-size: 16px;
+  font-weight: 800;
+  color: #3f3849;
+}
+
+main #bestexperience .allsection .leftside .allcontent .content p {
+  line-height: 28px;
+  color: #8d8698;
+  width: 80%;
+}
+
+main #bestexperience .allsection .leftside .allcontent .content span {
+  font-weight: bolder;
+  font-size: 17px;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+}
+
+main #bestexperience .allsection .leftside .allcontent .content .value #file {
+  width: 79%;
+}
+
+main #bestexperience .allsection .rightside .image {
+  width: 60%;
+  margin: 0 auto;
+}
+
+main #howitworks {
+  background-color: #f4f4f4;
+  padding-top: 120px;
+  padding-bottom: 170px;
+}
+
+main #howitworks .allsection {
+  width: 60%;
+  margin: 0 auto;
+}
+
+main #howitworks .allsection .title span {
+  color: #a2a2a2;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+main #howitworks .allsection .title h1 {
+  font-weight: bolder;
+  font-size: 52px;
+  color: #7414fb;
+}
+
+main #howitworks .allsection .title h1 span {
+  color: #303030;
+  font-size: 45px;
+}
+
+main #howitworks .allsection .title p {
+  font-size: 18px;
+  margin-top: 35px;
+  width: 80%;
+}
+
+main #howitworks .allsection .video {
+  width: 100%;
+  height: 70vh;
+}
+
+main #howitworks .allsection .video iframe {
+  margin-top: 50px;
+  width: 100%;
+  height: inherit;
+}
+
+main #adjustablestraps {
+  background-color: #363636;
+}
+
+main #adjustablestraps .title {
+  text-align: center;
+  padding-top: 100px;
+}
+
+main #adjustablestraps .title p {
+  color: #999999;
+  font-weight: 700;
+  line-height: 30px;
+  font-size: 15px;
+}
+
+main #adjustablestraps .title h1 {
+  color: white;
+  font-size: 48px;
+  line-height: 60px;
+  font-weight: 900;
+}
+
+main #adjustablestraps .allboxes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+main #adjustablestraps .allboxes .box {
+  margin-top: 60px;
+  background-color: #2b2b2b;
+  border: 1px solid #2b2b2b;
+  width: 30%;
+}
+
+main #adjustablestraps .allboxes .box .title p {
+  color: #e9e9e9;
+  font-size: 18px;
+  margin-top: -30px;
+}
+
+main #adjustablestraps .allboxes .box .title #green {
+  color: #99ffee;
+  font-weight: bolder;
+}
+
+main #adjustablestraps .allboxes .box .title #purple {
+  color: #cea9ff;
+  font-weight: bolder;
+}
+
+main #adjustablestraps .allboxes .box .title #golden {
+  color: #f2b45f;
+  font-weight: bolder;
+}
+
+main #adjustablestraps .allboxes .box .title span {
+  font-size: 22px;
+  font-weight: bold;
+  color: white;
+}
+
+main #adjustablestraps .allboxes .box .image {
+  margin: 34px auto 0px;
+  width: 85%;
+}
+
+main #adjustablestraps .allboxes .box .image img {
+  height: 30vh;
+  width: 100%;
+}
+
+main #adjustablestraps .button {
+  text-align: center;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+main #adjustablestraps .button button {
+  font-weight: bolder;
+  padding-left: 42px;
+  padding-right: 42px;
+  border-radius: 30px;
+  height: 56px;
+  color: white;
+  font-size: 16px;
+  border: 2px solid white;
+  background-color: #363636;
+}
+
+main #customers {
+  color: #f4f4f4;
+  background-image: url(http://jevelin.shufflehound.com/single-product/wp-content/uploads/sites/29/2018/03/Vector-Smart-Object-2copy-2.jpg?id=642) !important;
+  background-position: center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+main #customers .allsection {
+  text-align: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+}
+
+main #customers .title {
+  padding-top: 100px;
+  padding-bottom: 70px;
+}
+
+main #customers .title h1 {
+  font-size: 50px;
+  color: #3f3849;
+  font-weight: bolder;
+}
+
+main #customers .image {
+  padding-bottom: 30px;
+  width: 22%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+main #customers .image i {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-size: 32px;
+  color: #d4b6ff;
+}
+
+main #customers .image img {
+  border-radius: 50%;
+}
+
+main #customers .description {
+  width: 40%;
+  font-size: 19px;
+  color: #8d8698;
+  margin: 0 auto;
+}
+
+main #customers .name {
+  padding-top: 20px;
+}
+
+main #customers .name h5 {
+  color: #7f21ff;
+  font-weight: bolder;
+}
+
+main #customers .number {
+  padding-top: 20px;
+}
+
+main #customers .number span {
+  font-size: 30px;
+  color: gray;
+}
+
+main #socialmedia {
+  background-color: #7d1eff;
+  height: 17vh;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+main #socialmedia .icons {
+  width: 18%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+main #socialmedia .icons a {
+  text-decoration: none;
+}
+
+main #socialmedia .icons a i {
+  font-size: 27px;
+  color: gray;
+}
+
+main #socialmedia .icons a i:hover {
+  color: #a1a1a1;
+}
+
+footer {
+  background-color: #363636;
+}
+
+footer .allfooter {
+  padding-top: 74px;
+  height: 55vh;
+  color: white;
+}
+
+footer .allfooter .topfootercontent {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  margin: 0 auto;
+}
+
+footer .allfooter .topfootercontent .leftside p {
+  width: 80%;
+  margin-top: 20px;
+  color: #b3b3b3;
+}
+
+footer .allfooter .topfootercontent .leftside .icons {
+  width: 60%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 30px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+footer .allfooter .topfootercontent .leftside .icons i {
+  font-size: 28px;
+}
+
+footer .allfooter .topfootercontent .leftside .secure {
+  margin-top: 25px;
+  color: #b1b1b1;
+  font-size: 14px;
+}
+
+footer .allfooter .topfootercontent .leftside .secure span {
+  margin-left: 8px;
+}
+
+footer .allfooter .topfootercontent .middleside,
+footer .allfooter .topfootercontent .rightside {
+  position: relative;
+}
+
+footer .allfooter .topfootercontent .middleside .titleandli,
+footer .allfooter .topfootercontent .rightside .titleandli {
+  position: absolute;
+  top: 0px;
+  right: 13%;
+}
+
+footer .allfooter .topfootercontent .middleside .titleandli h5,
+footer .allfooter .topfootercontent .rightside .titleandli h5 {
+  margin-left: 30px;
+}
+
+footer .allfooter .topfootercontent .middleside .titleandli ul li,
+footer .allfooter .topfootercontent .rightside .titleandli ul li {
+  display: block;
+  margin-top: 13px;
+}
+
+footer .allfooter .topfootercontent .middleside .titleandli ul li a,
+footer .allfooter .topfootercontent .rightside .titleandli ul li a {
+  color: #949494;
+  font-size: 17px;
+  text-decoration: none;
+}
+
+footer .bottomfooter {
+  margin-top: 50px;
+  font-size: 13.5px;
+  text-align: center;
+  color: #ababab;
+}
+/*# sourceMappingURL=style.css.map */

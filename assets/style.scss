@@ -1,0 +1,697 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.allheader {
+  background-color: rgb(43, 43, 43);
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  .fixedelement{
+   
+    i{
+      font-size: 30px;
+      border: 1px solid white;
+      border-radius: 50%;
+      background-color: rgb(218, 218, 218);
+      position: fixed;
+      bottom: 30px;
+      padding: 10px;
+      right: 30px;
+      color: rgb(102, 102, 102);
+      
+    }
+  }
+  .allnav {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    background-color: rgb(43, 43, 43);
+
+    .navcontainer {
+      width: 93%;
+      margin: 0 auto;
+      position: relative;
+
+      .navbar {
+        padding-top: 35px;
+
+        .logo {
+          z-index: 1;
+        }
+
+        .navbarcenter {
+          ul {
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            width: 65%;
+            margin: 0 auto;
+
+            li {
+              z-index: 2;
+            }
+
+            a {
+              text-decoration: none;
+              color: white;
+              font-weight: 700;
+            }
+          }
+        }
+
+        .basketandbuybutton {
+          display: flex;
+          justify-content: flex-end;
+          z-index: 2;
+
+          .icon {
+            display: flex;
+            position: relative;
+            margin-right: 40px;
+            align-items: center;
+            padding: 8px;
+
+            i {
+              font-size: 18px;
+              color: rgb(98, 102, 239);
+            }
+
+            span {
+              position: absolute;
+              border: 0.5px solid rgb(98, 102, 239);
+              padding: 0px 3px 0px 4px;
+              font-size: 12px;
+              font-weight: bold;
+              color: white;
+              border-radius: 50%;
+              background-color: rgb(98, 102, 239);
+              top: 2px;
+              right: -5px;
+            }
+
+          }
+
+          button {
+            padding: 15px 37px 15px 37px;
+            border-radius: 40px;
+            background-color: rgb(98, 102, 239);
+            color: white;
+            border: none;
+            font-weight: 700;
+          }
+        }
+      }
+    }
+  }
+
+  .bottomheader {
+    .images {
+      .leftcircleimage {
+        position: absolute;
+        top: -290px;
+        left: -380px;
+        opacity: 0.4;
+      }
+
+      .rightcircleimage {
+        position: absolute;
+        right: -750px;
+        top: 150px;
+      }
+
+      .clockimage {
+        position: absolute;
+        top: 7%;
+        right: 8%;
+      }
+    }
+
+    .text {
+      position: absolute;
+      right: 55%;
+      color: white;
+      top: 30%;
+
+      .title {
+        h1 {
+          font-size: 80px;
+
+          span {
+            color: rgb(186, 130, 238);
+          }
+        }
+      }
+
+      .description {
+        margin-top: 60px;
+
+        h6 {
+          font-weight: bolder;
+        }
+
+        p {
+          margin-top: 30px;
+          font-size: 14px;
+          color: gray;
+          font-weight: 500;
+        }
+      }
+    }
+
+    .fixeddiv {
+      position: fixed;
+      background-color: white;
+      right: 0px;
+      transform: translate(-25%, 40%);
+
+      i {
+        display: block;
+        padding: 19px;
+        font-size: 22px;
+        color: rgb(185, 185, 185);
+        border-bottom: 1px solid rgb(231, 231, 231);
+      }
+
+      i:hover {
+        color: blue;
+      }
+    }
+  }
+}
+
+main {
+
+  #aboutwatches {
+    background-color: rgb(244, 244, 244);
+    height: 170vh;
+    padding-top: 200px;
+
+    .titleanddescription {
+      text-align: center;
+
+      .littletitle {
+        p {
+          font-weight: bolder;
+          color: rgb(175, 167, 189);
+        }
+      }
+
+      .title {
+        h1 {
+          font-weight: bolder;
+          font-size: 55px;
+          color: rgb(48, 48, 48);
+
+          span {
+            color: rgb(125, 30, 255);
+          }
+        }
+      }
+
+      .about {
+        margin-top: 50px;
+
+        p {
+          font-size: 18px;
+        }
+      }
+    }
+
+    .container {
+      width: 80%;
+      margin: 150px auto;
+
+      .allboxes {
+        display: flex;
+        justify-content: space-between;
+
+        .second {
+          display: none;
+        }
+      }
+
+      .dots {
+        i {
+          color: rgb(180, 126, 255);
+          margin-left: 11px;
+          font-size: 12px;
+          margin-top: 20px;
+        }
+
+        i:hover {
+          color: rgb(129, 39, 255);
+        }
+      }
+    }
+  }
+
+  #meetwithour {
+    .allsection {
+      display: flex;
+      padding-top: 200px;
+      padding-bottom: 200px;
+
+      .image {
+        display: flex;
+        justify-content: flex-end;
+      }
+
+      .rightside {
+        display: flex;
+        justify-content: center;
+
+        .allcontent {
+          .title {
+            p {
+              color: rgb(174, 169, 183);
+              line-height: 30px;
+              font-size: 14px;
+              font-weight: bold;
+            }
+
+            h1 {
+              font-size: 48px;
+              font-weight: bolder;
+              line-height: 60px;
+              color: rgb(52, 46, 60);
+            }
+          }
+
+          .alliconanddescription {
+            .iconanddescription {
+              display: flex;
+              margin-top: 80px;
+
+              i {
+                color: rgb(125, 77, 255);
+                font-size: 25px;
+              }
+
+              .description {
+                width: 70%;
+
+                margin-left: 40px;
+
+                h4 {
+                  font-size: 16px;
+                  font-weight: 800;
+                  color: rgb(63, 56, 73);
+                }
+
+                p {
+                  line-height: 28px;
+                  color: #8d8698;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  #bestexperience {
+    padding-bottom: 200px;
+
+    .allsection {
+      display: flex;
+      width: 73%;
+      margin: 0 auto;
+
+      .leftside {
+        .title {
+          p {
+            color: rgb(174, 169, 183);
+            line-height: 30px;
+            font-size: 14px;
+            font-weight: bold;
+          }
+
+          h1 {
+            font-size: 48px;
+            font-weight: bolder;
+            line-height: 60px;
+            color: rgb(75, 67, 84);
+          }
+        }
+
+        .allcontent {
+          margin-top: 80px;
+
+          .content {
+            margin-top: 40px;
+
+            h4 {
+              font-size: 16px;
+              font-weight: 800;
+              color: rgb(63, 56, 73);
+            }
+
+            p {
+              line-height: 28px;
+              color: #8d8698;
+              width: 80%;
+            }
+
+            span {
+              font-weight: bolder;
+              font-size: 17px;
+              justify-content: flex-end;
+              display: flex;
+              width: 80%;
+            }
+
+            .value {
+              #file {
+                width: 79%;
+              }
+            }
+          }
+        }
+      }
+
+      .rightside {
+        .image {
+          width: 60%;
+          margin: 0 auto;
+        }
+      }
+    }
+  }
+
+  #howitworks {
+    background-color: rgb(244, 244, 244);
+    padding-top: 120px;
+    padding-bottom: 170px;
+
+    .allsection {
+      width: 60%;
+      margin: 0 auto;
+
+      .title {
+        span {
+          color: rgb(162, 162, 162);
+          font-size: 14px;
+          font-weight: bold;
+        }
+
+        h1 {
+          font-weight: bolder;
+          font-size: 52px;
+          color: rgb(116, 20, 251);
+
+          span {
+            color: rgb(48, 48, 48);
+            font-size: 45px;
+          }
+        }
+
+        p {
+          font-size: 18px;
+          margin-top: 35px;
+          width: 80%;
+        }
+      }
+
+      .video {
+        width: 100%;
+        height: 70vh;
+
+        iframe {
+          margin-top: 50px;
+          width: 100%;
+          height: inherit;
+        }
+      }
+    }
+  }
+
+  #adjustablestraps {
+    background-color: rgb(54, 54, 54);
+
+    .title {
+      text-align: center;
+      padding-top: 100px;
+
+      p {
+        color: rgb(153, 153, 153);
+        font-weight: 700;
+        line-height: 30px;
+        font-size: 15px;
+      }
+
+      h1 {
+        color: rgb(255, 255, 255);
+        font-size: 48px;
+        line-height: 60px;
+        font-weight: 900;
+      }
+    }
+
+    .allboxes {
+      display: flex;
+      justify-content: space-around;
+
+      .box {
+        margin-top: 60px;
+        background-color: rgb(43, 43, 43);
+        border: 1px solid rgb(43, 43, 43);
+        width: 30%;
+
+        .title {
+          p {
+            color: rgb(233, 233, 233);
+            font-size: 18px;
+            margin-top: -30px;
+          }
+
+          #green {
+            color: rgb(153, 255, 238);
+            font-weight: bolder;
+          }
+
+          #purple {
+            color: rgb(206, 169, 255);
+            font-weight: bolder;
+          }
+
+          #golden {
+            color: rgb(242, 180, 95);
+            font-weight: bolder;
+          }
+
+          span {
+            font-size: 22px;
+            font-weight: bold;
+            color: white;
+          }
+        }
+
+        .image {
+          margin: 34px auto 0px;
+          width: 85%;
+          img{
+            height: 30vh;
+            width: 100%;
+          }
+        }
+      }
+    }
+
+    .button {
+      text-align: center;
+      padding-top: 100px;
+      padding-bottom: 100px;
+
+      button {
+        font-weight: bolder;
+        padding-left: 42px;
+        padding-right: 42px;
+        border-radius: 30px;
+        height: 56px;
+        color: white;
+        font-size: 16px;
+        border: 2px solid white;
+        background-color: rgb(54, 54, 54);
+      }
+    }
+  }
+
+  #customers {
+    color: rgb(244, 244, 244);
+    background-image: url(http://jevelin.shufflehound.com/single-product/wp-content/uploads/sites/29/2018/03/Vector-Smart-Object-2copy-2.jpg?id=642) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+
+    .allsection {
+      text-align: center;
+      align-items: center;
+      height: 100vh;
+    }
+
+    .title {
+      padding-top: 100px;
+      padding-bottom: 70px;
+
+      h1 {
+        font-size: 50px;
+        color: rgb(63, 56, 73);
+        font-weight: bolder;
+      }
+    }
+
+    .image {
+      padding-bottom: 30px;
+      width: 22%;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+      align-items: center;
+
+      i {
+        align-items: center;
+        font-size: 32px;
+        color: rgb(212, 182, 255);
+      }
+
+      img {
+        border-radius: 50%;
+      }
+    }
+
+    .description {
+      width: 40%;
+      font-size: 19px;
+      color: #8d8698;
+      margin: 0 auto;
+    }
+
+    .name {
+      padding-top: 20px;
+
+      h5 {
+        color: rgb(127, 33, 255);
+        font-weight: bolder;
+      }
+    }
+
+    .number {
+      padding-top: 20px;
+
+      span {
+        font-size: 30px;
+        color: gray;
+      }
+    }
+  }
+
+  #socialmedia {
+    background-color: rgb(125, 30, 255);
+    height: 17vh;
+    align-items: center;
+    display: flex;
+
+    .icons {
+      width: 18%;
+      margin: 0 auto;
+      display: flex;
+      justify-content: space-between;
+
+      a {
+        text-decoration: none;
+
+        i {
+          font-size: 27px;
+          color: gray;
+        }
+
+        i:hover {
+          color: rgb(161, 161, 161);
+        }
+      }
+    }
+  }
+}
+
+footer {
+  background-color: rgb(54, 54, 54);
+
+  .allfooter {
+    padding-top: 74px;
+    height: 55vh;
+    color: white;
+
+    .topfootercontent {
+      display: flex;
+      width: 80%;
+      margin: 0 auto;
+
+      .leftside {
+        p {
+          width: 80%;
+          margin-top: 20px;
+          color: rgb(179, 179, 179);
+        }
+
+        .icons {
+          width: 60%;
+          display: flex;
+          margin-top: 30px;
+          justify-content: space-between;
+
+          i {
+            font-size: 28px;
+          }
+        }
+
+        .secure {
+          margin-top: 25px;
+          color: rgb(177, 177, 177);
+          font-size: 14px;
+
+          span {
+            margin-left: 8px;
+          }
+        }
+      }
+
+      .middleside,
+      .rightside {
+        position: relative;
+
+        .titleandli {
+          position: absolute;
+          top: 0px;
+          right: 13%;
+
+          h5 {
+            margin-left: 30px;
+          }
+
+          ul {
+            li {
+              display: block;
+              margin-top: 13px;
+
+              a {
+                color: rgb(148, 148, 148);
+                font-size: 17px;
+                text-decoration: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  .bottomfooter{
+    margin-top: 50px;
+    font-size: 13.5px;
+    text-align: center;
+    color: rgb(171, 171, 171);
+  }
+}
